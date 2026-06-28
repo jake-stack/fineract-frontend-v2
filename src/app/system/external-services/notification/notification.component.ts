@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatSort } from '@angular/material/sort';
-import { MatTableDataSource } from '@angular/material/table';
+import { MatLegacyTableDataSource as MatTableDataSource } from '@angular/material/legacy-table';
 import { SystemService } from 'app/system/system.service';
 import { ExternalServiceConfigurationService } from '../external-services.service';
 import { SettingsService } from 'app/settings/settings.service';
