@@ -2,10 +2,10 @@ import { Component, AfterViewInit, ViewChild, OnInit, OnDestroy } from '@angular
 
 import { ActivatedRoute, Router } from '@angular/router';
 import { UntypedFormBuilder } from '@angular/forms';
-import { MatDialog } from '@angular/material/dialog';
-import { MatPaginator } from '@angular/material/paginator';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
+import { MatLegacyPaginator as MatPaginator } from '@angular/material/legacy-paginator';
 import { MatSort } from '@angular/material/sort';
-import { MatCheckbox } from '@angular/material/checkbox';
+import { MatLegacyCheckbox as MatCheckbox } from '@angular/material/legacy-checkbox';
 import { BaseCheckerInboxComponent } from 'app/tasks/common-directives/base-checker-inbox.component';
 import { TasksService } from '../../tasks.service';
 import { SettingsService } from 'app/settings/settings.service';
