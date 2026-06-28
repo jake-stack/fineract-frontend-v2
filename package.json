@@ -26,7 +26,7 @@
     "translate:html:all": "node scripts/translate-html.js --scan-all",
     "docs": "hads ./docs -o",
     "env": "node version.js",
-    "postinstall": "node version.js && ngcc",
+    "postinstall": "node version.js",
     "sentry:sourcemaps": "sentry-cli sourcemaps inject --org one-acre-fund --project fineract-ui ./dist/web-app && sentry-cli sourcemaps upload --org one-acre-fund --project fineract-ui ./dist/web-app"
   },
   "dependencies": {
