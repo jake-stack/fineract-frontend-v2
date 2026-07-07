@@ -36,7 +36,8 @@ describe('ApmInitService', () => {
     const originalEnv = environment.apm;
     environment.apm = {
       serviceName: 'test-service',
-      serverUrl: 'http://localhost:8200'
+      serverUrl: 'http://localhost:8200',
+      active: true
     };
 
     apmService.init.and.returnValue(mockApm);

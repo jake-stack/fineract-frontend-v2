@@ -1,0 +1,3 @@
+[body-max-line-length]
+# Allow long auto-appended commit trailers (e.g. Co-Authored-By lines).
+line-length=100

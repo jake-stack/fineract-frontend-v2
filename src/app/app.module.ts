@@ -55,7 +55,7 @@ import * as Sentry from '@sentry/angular';
 import { Router } from '@angular/router';
 import { apmInitializer, ApmInitService } from './core/init/elastic-apm/apm.init.service';
 import { ApmModule } from '@elastic/apm-rum-angular';
-import { MatPaginatorIntl } from '@angular/material/paginator';
+import { MatLegacyPaginatorIntl as MatPaginatorIntl } from '@angular/material/legacy-paginator';
 import { CustomMatPaginatorIntl } from './shares/CustomMatPaginatorIntl';
 
 /**
